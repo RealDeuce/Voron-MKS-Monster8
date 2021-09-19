@@ -12,8 +12,8 @@ for standard build sizes.
 Once I decide how to mount it (likely across the rails in front of the fans),
 I'll put the STL files for the mount in here too.
 
-Wiring is as follows:
-B stepper motor → Driver0:X
+## Wiring
+B stepper motor → Driver0:X\
 A stepper motor → Driver1:y
 Z0 (front left) stepper motor → Driver2:Z2 (leaving an empty connector between B/A and Z0)
 Z1 (rear left) stepper motor → Driver3:E0
