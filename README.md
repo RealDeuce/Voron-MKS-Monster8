@@ -37,9 +37,9 @@ MKS Mini 13864 v3 → EXP1 and EXP2
 Note that you do not need to populate a driver for E3 since it's not used in this configuration.
 
 ## Required jumper settings
-Endstop - PWR → VIN
-SPI/UART → UART configuration (see back of board)
-Driver DIAG → No jumpers installed
+Endstop - PWR → VIN\
+SPI/UART → UART configuration (see back of board)\
+Driver DIAG → No jumpers installed\
 Drive IC - PWR → 5V
 
 ## Recommended jumper settings
