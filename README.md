@@ -31,7 +31,7 @@ Hotend fan → FAN0\
 Print cooling fan → FAN1\
 Controller fan → FAN2\
 Exhaust fan → HE2\
-Single-colour LED strip → HE1\
+Single-colour 24V LED strip → HE1\
 MKS Mini 13864 v3 → EXP1 and EXP2
 
 Note that you do not need to populate a driver for E3 since it's not used in this configuration.
