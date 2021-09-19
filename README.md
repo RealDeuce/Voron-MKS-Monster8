@@ -20,6 +20,8 @@ Z1 (rear left) stepper motor → Driver3:E0\
 Z2 (rear right) stepper motor → Driver4:E1\
 Z3 (front right) stepper motor → Driver5:E2\
 Extruder stepper motor → Driver7:E4 (leaving an empty connector between Z3 and extruder)\
+X endstop switch → X-\
+Y endstop switch → Y-\
 Hotend heater → HE0\
 Hotend thermistor → TH0\
 SSR input → H-BED\
