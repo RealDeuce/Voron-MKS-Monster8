@@ -20,8 +20,9 @@ Z1 (rear left) stepper motor → Driver3\
 Z2 (rear right) stepper motor → Driver4\
 Z3 (front right) stepper motor → Driver5\
 Extruder stepper motor → Driver7 (leaving an empty connector between Z3 and extruder)\
-X endstop switch → X-\
-Y endstop switch → Y-\
+X endstop switch → X+\
+Y endstop switch → Y+\
+Z endstop switch → Z-\
 Hotend heater → HE0\
 Hotend thermistor → TH0\
 SSR input → H-BED (See markings on back of board)\
@@ -48,3 +49,7 @@ USB-PWR → OFF
 ## Other jumper settings
 Each fan connector has a corresponding FAN-PWR jumper, which allows each individual fan to be
 ran with 5V, 12V, or 24V.  I personally suggest using 24V for all of them (the jumper position furthest from the connector)
+
+## Other links
+[STL files for MKS display](https://github.com/makerbase-mks/MKS-MINI12864-V3/tree/main/Voron-STL).
+[MKS Monster8 Voron config by makerbase](https://github.com/makerbase-mks/MKS-Monster8/blob/main/klipper%20firmware/Voron%202.4%20config/printer.cfg)
