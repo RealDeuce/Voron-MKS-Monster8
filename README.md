@@ -20,21 +20,22 @@ Z1 (rear left) stepper motor → Driver3\
 Z2 (rear right) stepper motor → Driver4\
 Z3 (front right) stepper motor → Driver5\
 Extruder stepper motor → Driver7 (leaving an empty connector between Z3 and extruder)\
-X endstop switch → X+\
 Filament Runout Sensor → X-\
+X endstop switch → X+\
 Y endstop switch → Y+\
 Z endstop switch → Z-\
-Hotend heater → HE0\
-Hotend thermistor → TH0\
-SSR input → H-BED (See markings on back of board)\
-Bed thermistor → TB\
 Inductive probe (with BAT85) → Z+\
+Bed thermistor → TB\
+Hotend thermistor → TH0\
+Chamber thermistor → TH1\
 Hotend fan → FAN0 (See markings on back of board)\
 Print cooling fan → FAN1 (See markings on back of board)\
-Controller fan → FAN2 (See markings on back of board)\
-Exhaust fan → HE2\
-Single-colour 24V LED strip → HE1\
+Exhaust fan → FAN2 (See markings on back of board)\
 MKS Mini 13864 v3 → EXP1 and EXP2
+SSR input → H-BED (See markings on back of board)\
+Hotend heater → HE0\
+Controller fan → HE1\
+Single-colour 24V LED strip → HE2\
 
 Note that you do not need to populate a driver for E3 since it's not used in this configuration.
 
