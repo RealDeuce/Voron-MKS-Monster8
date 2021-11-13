@@ -1,8 +1,9 @@
 # Monster8 for Voron v2.4
 
 This is the config and any other files I end up needing for my install
-of a Monster8 in my Voron v2.4.  So far, I don't have the board in my
-hands, so this is untested based on their github project here:
+of a Monster8 in my Voron v2.4.  So far, I have the entire motion system
+built and tested, just waiting for my toolplate to arrive.
+Based on their github project here:
 https://github.com/makerbase-mks/MKS-Monster8
 
 [Monster8-Klipper.cfg](./Monster8-Klipper.cfg) is a generic Klipper config that contains instructions
