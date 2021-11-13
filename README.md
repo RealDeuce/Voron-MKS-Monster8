@@ -21,6 +21,7 @@ Z2 (rear right) stepper motor → Driver4\
 Z3 (front right) stepper motor → Driver5\
 Extruder stepper motor → Driver7 (leaving an empty connector between Z3 and extruder)\
 X endstop switch → X+\
+Filament Runout Sensor → X-\
 Y endstop switch → Y+\
 Z endstop switch → Z-\
 Hotend heater → HE0\
