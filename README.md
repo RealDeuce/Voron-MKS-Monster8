@@ -28,6 +28,7 @@ Inductive probe (with BAT85) → Z+\
 Bed thermistor → TB\
 Hotend thermistor → TH0\
 Chamber thermistor → TH1\
+Frame thermistor → TH2\
 Hotend fan → FAN0 (See markings on back of board)\
 Print cooling fan → FAN1 (See markings on back of board)\
 Exhaust fan → FAN2 (See markings on back of board)\
