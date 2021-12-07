@@ -53,6 +53,20 @@ USB-PWR → OFF
 Each fan connector has a corresponding FAN-PWR jumper, which allows each individual fan to be
 ran with 5V, 12V, or 24V.  I personally suggest using 24V for all of them (the jumper position furthest from the connector)
 
+## Klipper config
+```
+[*] Enable extra low-level configuration options
+    Micro-controller Architecture (STMicroelectronics STM32)  --->
+    Processor model (STM32F407)  --->
+    Bootloader offset (48KiB bootloader (MKS Robin Nano V3))  --->
+    Clock Reference (8 MHz crystal)  --->
+    Communication interface (USB (on PA11/PA12))  --->
+    USB ids  --->
+()  GPIO pins to set at micro-controller startup
+```
+
+
 ## Other links
 [STL files for MKS display](https://github.com/makerbase-mks/MKS-MINI12864-V3/tree/main/Voron-STL).\
+[STL files for MKS Monster8 DIN mount](https://github.com/makerbase-mks/MKS-Monster8/tree/main/STL/MKS%20Monster8%20fixed%20bracket)
 [MKS Monster8 Voron config by makerbase](https://github.com/makerbase-mks/MKS-Monster8/blob/main/klipper%20firmware/Voron%202.4%20config/printer.cfg)
