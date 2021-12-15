@@ -36,7 +36,7 @@ MKS Mini 13864 v3 → EXP1 and EXP2
 SSR input → H-BED (See markings on back of board)\
 Hotend heater → HE0\
 Controller fan → HE1\
-Single-colour 24V LED strip → HE2\
+Single-colour 24V LED strip → HE2
 
 Note that you do not need to populate a driver for E3 since it's not used in this configuration.
 
