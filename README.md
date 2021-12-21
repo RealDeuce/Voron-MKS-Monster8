@@ -67,6 +67,6 @@ ran with 5V, 12V, or 24V.  I personally suggest using 24V for all of them (the j
 
 
 ## Other links
-[STL files for MKS display](https://github.com/makerbase-mks/MKS-MINI12864-V3/tree/main/Voron-STL).\
+[STL files for MKS display](https://github.com/makerbase-mks/MKS-Monster8/tree/main/STL/MKS%20Mini12864%20V3.0%20STL).\
 [STL files for MKS Monster8 DIN mount](https://github.com/makerbase-mks/MKS-Monster8/tree/main/STL/MKS%20Monster8%20fixed%20bracket)\
 [MKS Monster8 Voron config by makerbase](https://github.com/makerbase-mks/MKS-Monster8/blob/main/klipper%20firmware/Voron%202.4%20config/printer.cfg)
