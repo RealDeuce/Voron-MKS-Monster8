@@ -32,7 +32,7 @@ Frame thermistor → TH2\
 Hotend fan → FAN0 (See markings on back of board)\
 Print cooling fan → FAN1 (See markings on back of board)\
 Exhaust fan → FAN2 (See markings on back of board)\
-MKS Mini 13864 v3 → EXP1 and EXP2
+MKS Mini 13864 v3 → EXP1 and EXP2\
 SSR input → H-BED (See markings on back of board)\
 Hotend heater → HE0\
 Controller fan → HE1\
