@@ -145,7 +145,9 @@ class ZCalibrationHelper:
         if site is None:
             site = state.helper.probe_bed_site
         else:
-            site = sit.split(',')
+            site = site.split(',')
+            site[0] = float(site[0])
+            site[1] = float(site[1])
         state.calibrate_z(site)
     cmd_PROBE_Z_ACCURACY_help = "Probe Z-Endstop accuracy at Nozzle-Endstop position"
     def cmd_PROBE_Z_ACCURACY(self, gcmd):
