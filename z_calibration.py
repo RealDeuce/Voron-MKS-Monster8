@@ -13,7 +13,7 @@ ERROR_BED_SITE_OR_MESH = ("Either configure probe_bed_x and probe_bed_y"
                           " or configure a mesh with a"
                           " relative_reference_index"
                           " for calibrate_z module!")
-#ERROR_NOT_ATTACHED = "Probe switch not closed - Probe not attached?"
+ERROR_NOT_ATTACHED = "Probe switch not closed - Probe not attached?"
 class ZCalibrationHelper:
     def __init__(self, config):
         self.state = None
@@ -327,11 +327,11 @@ class CalibrationState:
         # probe the probe-switch
         self.helper.switch_gcode.run_gcode_from_command()
         # check if probe is attached and the switch is closing it
-        #time = self.helper.printer.lookup_object('toolhead').get_last_move_time()
-        #probe = self.helper.printer.lookup_object('probe')
-        #if probe.mcu_probe.query_endstop(time):
-        #    raise self.helper.printer.command_error(ERROR_NOT_ATTACHED)
-        #    return
+        time = self.helper.printer.lookup_object('toolhead').get_last_move_time()
+        probe = self.helper.printer.lookup_object('probe')
+        if probe.mcu_probe.query_endstop(time):
+            raise self.helper.printer.command_error(ERROR_NOT_ATTACHED)
+            return
         switch_zero = self._probe_on_z_endstop(self.helper.probe_switch_site)
         # probe position on bed
         probe_zero = self._probe_on_bed(bed_site)
